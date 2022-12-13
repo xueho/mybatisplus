@@ -31,7 +31,7 @@ public class UserController {
     @RequestMapping("/add")
     public List<User> add(User user){
 
-//        boolean f = userService.saveOrUpdate(user);
+        boolean f = userService.saveOrUpdate(user);
 //        return f+"";
         List<User> users = userService.list();
 //        List<User> users = userService.list();
